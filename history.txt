@@ -1,0 +1,96 @@
+    1  git --version
+    2  git status
+    4  git config --list
+    5  git config --global core.editor "code --wait"
+    6  git config --list
+    8  git config --list
+   14  git status
+   15  git init
+   16  git status
+   28  cd git-practice-shae_sims
+   29  git status
+   32  cd git-practice-shae-sims
+   33  git status
+   38  cd git-practice-shae-sims
+   43  git status
+   46  git add file1.txt
+   47  git status
+   48  git add .
+   49  git status
+   50  git commit -m "Add file2.txt"
+   51  git status
+   52  git log --oneline
+   57  git commit -m .gitignore
+   58  git add .gitignore
+   59  git commit -m "Add ignored files"
+   60  git status
+   63  git remote add origin https://github.com/shae-sims/lab1-practice-shae-sims.git
+   64  git remote add origin https://github.com/shae-sims/lab1-practice-shae-sims.git
+   65  git push -u origin main
+   70  cd git-practice-shae-sims
+   74  cd git-practice-shae-sims
+   75  git status
+   82  cd git-practice-shae-sims/
+   83  git remote add orgin git@github.com:shae-sims/lab1-practice-shae-sims.git
+   84  git push
+   85  git push -u orgin main
+   87  git add .
+   88  git commit -m "create new files"
+   89  git status
+   90  git log
+   91  git status
+   92  git status
+   93  git add file1.txt
+   94  git commit -m "file1 update"
+   95  git add file2.txt
+   96  git commit -m "file2 update"
+   97  git log
+   99  git status
+  100  git add "Readme.md"
+  101  git commit -m "Add Readme file"
+  103  git status
+  104  git status
+  105  git add .gitignore
+  106  git commit -m "Update .gitignore"
+  107  git status
+  108  git status
+  109  git add .gitignore
+  110  git commit -m "Update .gitignore fixed"
+  111  git status
+  112  git branch "features"
+  113  git checkout "features"
+  114  git log
+  119  cd git-practice-shae-sims/
+  120  git checkout features
+  121  git branch
+  122  git show head
+  124  git add new_features.txt
+  125  git commit -m "add empty file"
+  126  git add new_features.txt
+  127  git commit -m "New Features Update"
+  128  git checkout main
+  130  git add file_1.txt
+  131  git add file1.txt
+  132  git commit -m "Changes to File1"
+  133  git merge features
+  134  git log
+  135  git add new_feature.txt
+  136  git add new_features.txt
+  137  git commit -m "Change text in New Features"
+  138  git checkout features
+  139  git add "new_features.txt
+  142  git add "new_features.txt"
+  143  git commit -m New features update again
+  144  git commit -m "New features update again"
+  145  git checkout main
+  146  git merge features
+  147  git add .
+  148  git commit -m "Merge Changes"
+  149  git branch -d features
+  150  git push -u orgin main
+  153  cd git-practice-shae-sims/
+  154  git pull
+  155  git log --oneline > gitlog.txt 
+  156  git log --oneline > gitlog.txt 
+  157  git log --oneline > gitlog.txt
+  158  history | grep git > history.txt

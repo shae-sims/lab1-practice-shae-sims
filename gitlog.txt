@@ -1,0 +1,17 @@
+9136dfc Merge pull request #1 from dmbinns/main
+baeedbe Merge pull request #1 from dmbinns/feature-dmbinns
+5e8f88d Create DanielasChanges
+7c3a813 Merge Changes
+78e27ce New features update again
+e93e9cf Change text in New Features
+e849d20 Merge branch 'features' Merge together with features to have a new file
+a0ad358 Changes to File1
+3dd114c New Features Update
+a7d9ac0 add empty file
+f65439e Update .gitignore fixed
+5b1e537 Update .gitignore
+fecb89b Add Readme file
+3a14bfb file2 update
+8862661 file1 update
+ddaa358 Add ignored files
+9453d94 Add file2.txt
